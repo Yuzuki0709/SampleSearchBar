@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D48DD8E52AAB0DFF00B469CC /* SapmleSearchBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DD8E42AAB0DFF00B469CC /* SapmleSearchBarApp.swift */; };
+		D48DD8E72AAB0DFF00B469CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DD8E62AAB0DFF00B469CC /* ContentView.swift */; };
+		D48DD8E92AAB0E0200B469CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48DD8E82AAB0E0200B469CC /* Assets.xcassets */; };
+		D48DD8EC2AAB0E0200B469CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D48DD8EB2AAB0E0200B469CC /* Preview Assets.xcassets */; };
+		D48DD8F62AAB0E0200B469CC /* SapmleSearchBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DD8F52AAB0E0200B469CC /* SapmleSearchBarTests.swift */; };
+		D48DD9002AAB0E0200B469CC /* SapmleSearchBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DD8FF2AAB0E0200B469CC /* SapmleSearchBarUITests.swift */; };
+		D48DD9022AAB0E0200B469CC /* SapmleSearchBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DD9012AAB0E0200B469CC /* SapmleSearchBarUITestsLaunchTests.swift */; };
+		D48DD90F2AAB0EDB00B469CC /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DD90E2AAB0EDB00B469CC /* SearchTextField.swift */; };
+		D48DD9112AAB158900B469CC /* SearchTextFieldWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DD9102AAB158900B469CC /* SearchTextFieldWithAnimation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D48DD8F22AAB0E0200B469CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48DD8D92AAB0DFF00B469CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48DD8E02AAB0DFF00B469CC;
+			remoteInfo = SapmleSearchBar;
+		};
+		D48DD8FC2AAB0E0200B469CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D48DD8D92AAB0DFF00B469CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D48DD8E02AAB0DFF00B469CC;
+			remoteInfo = SapmleSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D48DD8E12AAB0DFF00B469CC /* SapmleSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SapmleSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48DD8E42AAB0DFF00B469CC /* SapmleSearchBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapmleSearchBarApp.swift; sourceTree = "<group>"; };
+		D48DD8E62AAB0DFF00B469CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D48DD8E82AAB0E0200B469CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D48DD8EB2AAB0E0200B469CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D48DD8F12AAB0E0200B469CC /* SapmleSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SapmleSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48DD8F52AAB0E0200B469CC /* SapmleSearchBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapmleSearchBarTests.swift; sourceTree = "<group>"; };
+		D48DD8FB2AAB0E0200B469CC /* SapmleSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SapmleSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48DD8FF2AAB0E0200B469CC /* SapmleSearchBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapmleSearchBarUITests.swift; sourceTree = "<group>"; };
+		D48DD9012AAB0E0200B469CC /* SapmleSearchBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapmleSearchBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D48DD90E2AAB0EDB00B469CC /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		D48DD9102AAB158900B469CC /* SearchTextFieldWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextFieldWithAnimation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D48DD8DE2AAB0DFF00B469CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48DD8EE2AAB0E0200B469CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48DD8F82AAB0E0200B469CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D48DD8D82AAB0DFF00B469CC = {
+			isa = PBXGroup;
+			children = (
+				D48DD8E32AAB0DFF00B469CC /* SapmleSearchBar */,
+				D48DD8F42AAB0E0200B469CC /* SapmleSearchBarTests */,
+				D48DD8FE2AAB0E0200B469CC /* SapmleSearchBarUITests */,
+				D48DD8E22AAB0DFF00B469CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D48DD8E22AAB0DFF00B469CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D48DD8E12AAB0DFF00B469CC /* SapmleSearchBar.app */,
+				D48DD8F12AAB0E0200B469CC /* SapmleSearchBarTests.xctest */,
+				D48DD8FB2AAB0E0200B469CC /* SapmleSearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D48DD8E32AAB0DFF00B469CC /* SapmleSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				D48DD8E42AAB0DFF00B469CC /* SapmleSearchBarApp.swift */,
+				D48DD8E62AAB0DFF00B469CC /* ContentView.swift */,
+				D48DD90E2AAB0EDB00B469CC /* SearchTextField.swift */,
+				D48DD9102AAB158900B469CC /* SearchTextFieldWithAnimation.swift */,
+				D48DD8E82AAB0E0200B469CC /* Assets.xcassets */,
+				D48DD8EA2AAB0E0200B469CC /* Preview Content */,
+			);
+			path = SapmleSearchBar;
+			sourceTree = "<group>";
+		};
+		D48DD8EA2AAB0E0200B469CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D48DD8EB2AAB0E0200B469CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D48DD8F42AAB0E0200B469CC /* SapmleSearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D48DD8F52AAB0E0200B469CC /* SapmleSearchBarTests.swift */,
+			);
+			path = SapmleSearchBarTests;
+			sourceTree = "<group>";
+		};
+		D48DD8FE2AAB0E0200B469CC /* SapmleSearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D48DD8FF2AAB0E0200B469CC /* SapmleSearchBarUITests.swift */,
+				D48DD9012AAB0E0200B469CC /* SapmleSearchBarUITestsLaunchTests.swift */,
+			);
+			path = SapmleSearchBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D48DD8E02AAB0DFF00B469CC /* SapmleSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48DD9052AAB0E0200B469CC /* Build configuration list for PBXNativeTarget "SapmleSearchBar" */;
+			buildPhases = (
+				D48DD8DD2AAB0DFF00B469CC /* Sources */,
+				D48DD8DE2AAB0DFF00B469CC /* Frameworks */,
+				D48DD8DF2AAB0DFF00B469CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SapmleSearchBar;
+			productName = SapmleSearchBar;
+			productReference = D48DD8E12AAB0DFF00B469CC /* SapmleSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D48DD8F02AAB0E0200B469CC /* SapmleSearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48DD9082AAB0E0200B469CC /* Build configuration list for PBXNativeTarget "SapmleSearchBarTests" */;
+			buildPhases = (
+				D48DD8ED2AAB0E0200B469CC /* Sources */,
+				D48DD8EE2AAB0E0200B469CC /* Frameworks */,
+				D48DD8EF2AAB0E0200B469CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48DD8F32AAB0E0200B469CC /* PBXTargetDependency */,
+			);
+			name = SapmleSearchBarTests;
+			productName = SapmleSearchBarTests;
+			productReference = D48DD8F12AAB0E0200B469CC /* SapmleSearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D48DD8FA2AAB0E0200B469CC /* SapmleSearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D48DD90B2AAB0E0200B469CC /* Build configuration list for PBXNativeTarget "SapmleSearchBarUITests" */;
+			buildPhases = (
+				D48DD8F72AAB0E0200B469CC /* Sources */,
+				D48DD8F82AAB0E0200B469CC /* Frameworks */,
+				D48DD8F92AAB0E0200B469CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D48DD8FD2AAB0E0200B469CC /* PBXTargetDependency */,
+			);
+			name = SapmleSearchBarUITests;
+			productName = SapmleSearchBarUITests;
+			productReference = D48DD8FB2AAB0E0200B469CC /* SapmleSearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D48DD8D92AAB0DFF00B469CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D48DD8E02AAB0DFF00B469CC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D48DD8F02AAB0E0200B469CC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D48DD8E02AAB0DFF00B469CC;
+					};
+					D48DD8FA2AAB0E0200B469CC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D48DD8E02AAB0DFF00B469CC;
+					};
+				};
+			};
+			buildConfigurationList = D48DD8DC2AAB0DFF00B469CC /* Build configuration list for PBXProject "SapmleSearchBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D48DD8D82AAB0DFF00B469CC;
+			productRefGroup = D48DD8E22AAB0DFF00B469CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D48DD8E02AAB0DFF00B469CC /* SapmleSearchBar */,
+				D48DD8F02AAB0E0200B469CC /* SapmleSearchBarTests */,
+				D48DD8FA2AAB0E0200B469CC /* SapmleSearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D48DD8DF2AAB0DFF00B469CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48DD8EC2AAB0E0200B469CC /* Preview Assets.xcassets in Resources */,
+				D48DD8E92AAB0E0200B469CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48DD8EF2AAB0E0200B469CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48DD8F92AAB0E0200B469CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D48DD8DD2AAB0DFF00B469CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48DD9112AAB158900B469CC /* SearchTextFieldWithAnimation.swift in Sources */,
+				D48DD8E72AAB0DFF00B469CC /* ContentView.swift in Sources */,
+				D48DD8E52AAB0DFF00B469CC /* SapmleSearchBarApp.swift in Sources */,
+				D48DD90F2AAB0EDB00B469CC /* SearchTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48DD8ED2AAB0E0200B469CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48DD8F62AAB0E0200B469CC /* SapmleSearchBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48DD8F72AAB0E0200B469CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48DD9022AAB0E0200B469CC /* SapmleSearchBarUITestsLaunchTests.swift in Sources */,
+				D48DD9002AAB0E0200B469CC /* SapmleSearchBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D48DD8F32AAB0E0200B469CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48DD8E02AAB0DFF00B469CC /* SapmleSearchBar */;
+			targetProxy = D48DD8F22AAB0E0200B469CC /* PBXContainerItemProxy */;
+		};
+		D48DD8FD2AAB0E0200B469CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D48DD8E02AAB0DFF00B469CC /* SapmleSearchBar */;
+			targetProxy = D48DD8FC2AAB0E0200B469CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D48DD9032AAB0E0200B469CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D48DD9042AAB0E0200B469CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D48DD9062AAB0E0200B469CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SapmleSearchBar/Preview Content\"";
+				DEVELOPMENT_TEAM = D8V5XWF3J2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryutoiwamoto.SapmleSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D48DD9072AAB0E0200B469CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SapmleSearchBar/Preview Content\"";
+				DEVELOPMENT_TEAM = D8V5XWF3J2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryutoiwamoto.SapmleSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D48DD9092AAB0E0200B469CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8V5XWF3J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryutoiwamoto.SapmleSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SapmleSearchBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SapmleSearchBar";
+			};
+			name = Debug;
+		};
+		D48DD90A2AAB0E0200B469CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8V5XWF3J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryutoiwamoto.SapmleSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SapmleSearchBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SapmleSearchBar";
+			};
+			name = Release;
+		};
+		D48DD90C2AAB0E0200B469CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8V5XWF3J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryutoiwamoto.SapmleSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SapmleSearchBar;
+			};
+			name = Debug;
+		};
+		D48DD90D2AAB0E0200B469CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D8V5XWF3J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryutoiwamoto.SapmleSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SapmleSearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D48DD8DC2AAB0DFF00B469CC /* Build configuration list for PBXProject "SapmleSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48DD9032AAB0E0200B469CC /* Debug */,
+				D48DD9042AAB0E0200B469CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48DD9052AAB0E0200B469CC /* Build configuration list for PBXNativeTarget "SapmleSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48DD9062AAB0E0200B469CC /* Debug */,
+				D48DD9072AAB0E0200B469CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48DD9082AAB0E0200B469CC /* Build configuration list for PBXNativeTarget "SapmleSearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48DD9092AAB0E0200B469CC /* Debug */,
+				D48DD90A2AAB0E0200B469CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D48DD90B2AAB0E0200B469CC /* Build configuration list for PBXNativeTarget "SapmleSearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D48DD90C2AAB0E0200B469CC /* Debug */,
+				D48DD90D2AAB0E0200B469CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D48DD8D92AAB0DFF00B469CC /* Project object */;
+}
